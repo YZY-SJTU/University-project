@@ -1,0 +1,13 @@
+﻿  main3.cpp
+D:\VS code\VS\9_3\9_3\Graph.h(45,10): warning C4305: “初始化”: 从“Graph_lib::Color::Transparency”到“char”截断
+D:\VS code\VS\9_3\9_3\Graph.h(45,46): warning C4309: “初始化”: 截断常量值
+D:\VS code\VS\9_3\9_3\Graph.h(47,10): warning C4305: “初始化”: 从“Graph_lib::Color::Transparency”到“char”截断
+D:\VS code\VS\9_3\9_3\Graph.h(47,39): warning C4309: “初始化”: 截断常量值
+D:\VS code\VS\9_3\9_3\GUI.h(107,39): warning C4018: “<”: 有符号/无符号不匹配
+D:\VS code\VS\9_3\9_3\GUI.h(112,39): warning C4018: “<”: 有符号/无符号不匹配
+D:\VS code\VS\9_3\9_3\GUI.h(117,39): warning C4018: “<”: 有符号/无符号不匹配
+D:\VS code\VS\9_3\9_3\Graph.h(130,1): warning C4018: “<”: 有符号/无符号不匹配
+D:\VS code\VS\9_3\9_3\Graph.h(130): message : 在编译 类 模板 成员函数“Graph_lib::Vector_ref<Graph_lib::Button>::~Vector_ref(void)”时
+D:\VS code\VS\9_3\9_3\GUI.h(97): message : 查看对正在编译的函数 模板 实例化“Graph_lib::Vector_ref<Graph_lib::Button>::~Vector_ref(void)”的引用
+D:\VS code\VS\9_3\9_3\GUI.h(99): message : 查看对正在编译的 类 模板 实例化“Graph_lib::Vector_ref<Graph_lib::Button>”的引用
+  9_3.vcxproj -> D:\VS code\VS\9_3\Debug\9_3.exe
