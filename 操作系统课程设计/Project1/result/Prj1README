@@ -1,0 +1,11 @@
+project1文件夹中的4个文件夹分别对应project1的4个问题：
+1.problem1文件夹中有Makefile与ptree.c文件：ptree.c文件存放着修改后的编号为356、
+在Android中实现类似Linux下pstree功能的syscall；Makefile为对应make命令的文件；
+2.problem2文件夹中有jni文件夹与test.txt文件：jni文件下有Android.mk用于ndk-build，ptree.c文件为problem1
+中修改后的356号命令的测试输出文件，子程序关系用tab的不同个数显示，test.txt文件记录了对应的测试输出；
+3.problem3文件夹中有jni文件夹与test.txt文件：jni文件下有Android.mk用于ndk-build，generateProcess.c
+文件为创建一个母子程序并输出Parent/Child+pid的功能的源程序，test.txt文件记录了对应的测试输出；
+4.problem4文件夹中有jni文件夹与test.txt文件：jni文件下有Android.mk用于ndk-build，BurgerBuddies.c
+文件为多线程解决BurgerBuddies问题的源程序，test.txt文件记录了输入为2 4 41 10的测试输出。
+
+P.S.每个.c文件为源程序，其中有多行注释用于解释各程序段的作用，就不一一单独写成一个文件了

@@ -1,0 +1,5 @@
+1.在goldfish文件夹下为kernel中被修改过的文件及其源代码，其位置与实际运行的kernel中的位置相一致（不包含编译后的zImage文件）
+
+2.test-program文件夹为测试使用到的wrr_timeslice.c set_sched.c与perf_compare.c文件及其Android.mk（源代码详见jni文件夹下文件），其余为编译后产生的文件
+
+3.Prj2 519030910168 Report为本次Project的报告，其中goldfish文件夹下文件的修改的细致的修改说明在report中详细介绍
