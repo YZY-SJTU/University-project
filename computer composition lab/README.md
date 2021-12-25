@@ -15,7 +15,7 @@
       per vertex文件夹下使用的是从相机处发射光源，使用per vertex粒度的光线追踪的情况  
       per pixel文件夹下使用的是从相机处发射光源，使用per pixel粒度的光线追踪的情况  
       per tessellated vertex文件夹使用的是从相机处发射光源，使用per tessellated vertex粒度的光线追踪的情况,同样可以按照上述方法修改tess基值  
-  tips:运行产生的窗口右上角为对应的工程文件名，fps为对应帧率  
+tips:运行产生的窗口右上角为对应的工程文件名，fps为对应帧率  
   （3）工程项目使用：在对应文件夹下双击BasicTessellation.sln即可打开项目文件，其中主执行函数在main.cpp中，执行函数为WinMain函数，将调试模式转为debug-x64状态即可直接运行调试器，或者可以转为Release状态，如果产生fxc编译出错信息，请尝试将hlsl文件的相关配置为如下情况（以Pixel Shader为例）：  
 ![屏幕截图 2021-12-25 163656](https://user-images.githubusercontent.com/66478971/147381071-6dffc216-0644-4516-83d9-d2d1fa41c3f4.png)  
   
