@@ -1,12 +1,11 @@
 # 计算机图形学 课题8 不同粒度的光线追踪
 
-1.设备相关软件适配检查：
-  （1）在Windows操作系统下搜索dxdiag，检查设备是否安装DirectX12，无则需要进行更新
-![屏幕截图 2021-12-25 144526](https://user-images.githubusercontent.com/66478971/147379267-0e825565-d524-4b3c-be9a-9ce76c7d6ba2.png)
-  （2）在Windows操作系统下检查Windows Kits，至少在软件层面支持Shader Model 6.5（最好Windows Kits为10.0.19041.0及以上）
-  （3）检查本机的显示适配器，需要支持Shader Model 6.5（为20系或者30系显卡即可）
-  
-2.项目源文件与使用
+1.设备相关软件适配检查：//
+  （1）在Windows操作系统下搜索dxdiag，检查设备是否安装DirectX12，无则需要进行更新//
+![屏幕截图 2021-12-25 144526](https://user-images.githubusercontent.com/66478971/147379267-0e825565-d524-4b3c-be9a-9ce76c7d6ba2.png)//
+  （2）在Windows操作系统下检查Windows Kits，至少在软件层面支持Shader Model 6.5（最好Windows Kits为10.0.19041.0及以上）//
+  （3）检查本机的显示适配器，需要支持Shader Model 6.5（为20系或者30系显卡即可）//
+2.项目源文件与使用//
   （1）所有工程的源文件都位于Project File文件夹下，共有5个项目文件，每个项目文件夹下的Models文件夹下有一个skull.txt文件，记录的是头骨模型的三角面元vertex与indices数据，由于模型载入使用path索引，故请不要移动该文件夹与文件夹下任意文件的位置
   （2）工程项目说明：
       fixed light文件夹使用的是位于(-100.0f,0.0f,0.0f)点光源，使用per pixel粒度的光线追踪，可看见miss部分的渲染情况是什么样的
