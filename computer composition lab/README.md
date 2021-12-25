@@ -24,4 +24,4 @@ tips:运行产生的窗口右上角为对应的工程文件名，fps为对应帧
   （2）以fixed light下的文件夹举例，fixed-light.exe为可执行文件，只需要双击执行即可，其余文件为该exe文件的依赖文件，请不要移动它们  
   
 运行示例：  
-![Uploading per pixel.png…]()
+![per pixel](https://user-images.githubusercontent.com/66478971/147383755-1159c1fb-a75b-4633-b7de-0d06f4b27188.png)
