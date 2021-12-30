@@ -1,5 +1,8 @@
 # 计算机图形学 课题8 不同粒度的光线追踪
 
+tips1:如果看不到图片，请尝试恢复与Github的连接，本质上不影响使用文档阅读，也可以忽略  
+tips2:为保证格式正确与阅读体验，请尽量使用MarkDown打开该文件
+
 1.设备相关软件适配检查：  
   （1）在Windows操作系统下搜索dxdiag，检查设备是否安装DirectX12，无则需要进行更新  
 ![屏幕截图 2021-12-25 144526](https://user-images.githubusercontent.com/66478971/147379267-0e825565-d524-4b3c-be9a-9ce76c7d6ba2.png)  
@@ -25,5 +28,3 @@ tips:运行产生的窗口右上角为对应的工程文件名，fps为对应帧
   
 运行示例：  
 ![per pixel](https://user-images.githubusercontent.com/66478971/147383755-1159c1fb-a75b-4633-b7de-0d06f4b27188.png)  
-
-tips:如果看不到图片，请尝试恢复与Github的连接，本质上不影响使用文档阅读，也可以忽略
