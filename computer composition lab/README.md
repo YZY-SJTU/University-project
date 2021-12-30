@@ -16,7 +16,7 @@
       per pixel文件夹下使用的是从相机处发射光源，使用per pixel粒度的光线追踪的情况  
       per tessellated vertex文件夹使用的是从相机处发射光源，使用per tessellated vertex粒度的光线追踪的情况,同样可以按照上述方法修改tess基值  
 tips:运行产生的窗口右上角为对应的工程文件名，fps为对应帧率  
-  （3）工程项目使用：在对应文件夹下双击BasicTessellation.sln即可打开项目文件，其中主执行函数在main.cpp中，执行函数为WinMain函数，将调试模式转为debug-x64状态即可直接运行调试器，或者可以转为Release状态，如果产生fxc编译出错信息，请尝试将hlsl文件的相关配置为如下情况（以Pixel Shader为例）：  
+  （3）工程项目使用：在对应文件夹下双击BasicTessellation.sln即可打开项目文件，其中主执行函数在main.cpp中，执行函数为WinMain函数，将调试模式转为debug-x64状态即可直接运行调试器，或者可以转为Release状态，(由于DX12的默认项目离线编译Shader Model 4.0，我们仅在x64的两个调试模式下进行了配置，所以如果使用x86必然使用默认配置，那么请按以下要求配置VS、HS、DS、PS四个hlsl文件)如果产生fxc编译出错信息，请尝试将hlsl文件的相关配置为如下情况（以Pixel Shader为例）：  
 ![屏幕截图 2021-12-25 163656](https://user-images.githubusercontent.com/66478971/147381071-6dffc216-0644-4516-83d9-d2d1fa41c3f4.png)  
   
 3.可执行文件使用  
@@ -24,4 +24,6 @@ tips:运行产生的窗口右上角为对应的工程文件名，fps为对应帧
   （2）以fixed light下的文件夹举例，fixed-light.exe为可执行文件，只需要双击执行即可，其余文件为该exe文件的依赖文件，请不要移动它们  
   
 运行示例：  
-![per pixel](https://user-images.githubusercontent.com/66478971/147383755-1159c1fb-a75b-4633-b7de-0d06f4b27188.png)
+![per pixel](https://user-images.githubusercontent.com/66478971/147383755-1159c1fb-a75b-4633-b7de-0d06f4b27188.png)  
+
+tips:如果看不到图片，请尝试恢复与Github的连接，本质上不影响使用文档阅读，也可以忽略
