@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.h</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 GeometryGenerator::Vertex::Position。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Vertex::{ctor}</FUNCTION>
+    <DECORATED>??0Vertex@GeometryGenerator@@QEAA@XZ</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GeometryGenerator::Vertex::Position</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.h</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 GeometryGenerator::Vertex::TangentU。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Vertex::{ctor}</FUNCTION>
+    <DECORATED>??0Vertex@GeometryGenerator@@QEAA@XZ</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GeometryGenerator::Vertex::TangentU</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.h</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 GeometryGenerator::Vertex::Normal。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Vertex::{ctor}</FUNCTION>
+    <DECORATED>??0Vertex@GeometryGenerator@@QEAA@XZ</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GeometryGenerator::Vertex::Normal</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.h</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 GeometryGenerator::Vertex::TexC。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Vertex::{ctor}</FUNCTION>
+    <DECORATED>??0Vertex@GeometryGenerator@@QEAA@XZ</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GeometryGenerator::Vertex::TexC</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>236</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Subdivide</FUNCTION>
+    <DECORATED>?Subdivide@GeometryGenerator@@AEAAXAEAUMeshData@1@@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>237</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Subdivide</FUNCTION>
+    <DECORATED>?Subdivide@GeometryGenerator@@AEAAXAEAUMeshData@1@@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>237</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Subdivide</FUNCTION>
+    <DECORATED>?Subdivide@GeometryGenerator@@AEAAXAEAUMeshData@1@@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>238</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Subdivide</FUNCTION>
+    <DECORATED>?Subdivide@GeometryGenerator@@AEAAXAEAUMeshData@1@@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>238</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Subdivide</FUNCTION>
+    <DECORATED>?Subdivide@GeometryGenerator@@AEAAXAEAUMeshData@1@@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>579</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>579</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>580</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>580</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>581</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>581</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>584</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>584</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>585</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>585</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>593</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>602</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>603</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>605</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>606</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>607</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

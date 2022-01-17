@@ -1,0 +1,16 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+E:/archlabs/lab06/lab06.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+E:/archlabs/lab06/lab06.srcs/sim_1/new/top_tb.v,1618976928,verilog,,,,top_tb,,,,,,,,
+E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab03/lab03.srcs/sources_1/new/ALUAdd.v,1618963773,verilog,,E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab03/lab03.srcs/sources_1/new/ALU_Ctr.v,,ALUAdd,,,,,,,,
+E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab03/lab03.srcs/sources_1/new/ALU_Ctr.v,1618963789,verilog,,E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab03/lab03.srcs/sources_1/new/Ctr.v,,ALU_Ctr,,,,,,,,
+E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab03/lab03.srcs/sources_1/new/Ctr.v,1618963837,verilog,,E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab05/lab05.srcs/sources_1/new/InstMemory.v,,Ctr,,,,,,,,
+E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab04/lab04.srcs/sources_1/new/Registers.v,1618963884,verilog,,E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab04/lab04.srcs/sources_1/new/dataMemory.v,,Registers,,,,,,,,
+E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab04/lab04.srcs/sources_1/new/dataMemory.v,1618963915,verilog,,E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab04/lab04.srcs/sources_1/new/signext.v,,dataMemory,,,,,,,,
+E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab04/lab04.srcs/sources_1/new/signext.v,1618963932,verilog,,E:/archlabs/lab06/lab06.srcs/sources_1/new/top.v,,signext,,,,,,,,
+E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab05/lab05.srcs/sources_1/new/InstMemory.v,1618963835,verilog,,E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab05/lab05.srcs/sources_1/new/Mux32bits.v,,InstMemory,,,,,,,,
+E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab05/lab05.srcs/sources_1/new/Mux32bits.v,1618963886,verilog,,E:/archlabs/lab06/lab06.srcs/sources_1/imports/new/Mux5bits.v,,Mux32bits,,,,,,,,
+E:/archlabs/lab06/lab06.srcs/sources_1/imports/new/Mux5bits.v,1617766625,verilog,,E:/archlabs/lab06/lab06.srcs/sources_1/imports/archlabs/lab04/lab04.srcs/sources_1/new/Registers.v,,Mux5bits,,,,,,,,
+E:/archlabs/lab06/lab06.srcs/sources_1/new/top.v,1619583039,verilog,,E:/archlabs/lab06/lab06.srcs/sim_1/new/top_tb.v,,top,,,,,,,,

@@ -1,0 +1,20 @@
+﻿FXC : warning : no output provided for debug - embedding PDB in shader container.  Use -Qembed_debug to silence this warning.
+  
+FXC : warning : no output provided for debug - embedding PDB in shader container.  Use -Qembed_debug to silence this warning.
+  
+FXC : warning : no output provided for debug - embedding PDB in shader container.  Use -Qembed_debug to silence this warning.
+  
+FXC : warning : no output provided for debug - embedding PDB in shader container.  Use -Qembed_debug to silence this warning.
+  
+  d3dApp.cpp
+  d3dUtil.cpp
+  GameTimer.cpp
+  GeometryGenerator.cpp
+  Main.cpp
+  FrameResource.cpp
+  MathHelper.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 1834 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  BasicTessellation.vcxproj -> D:\交大\计算机图形学\CG Project\8th project\Project File\per vertex\x64\Release\RayTracing-per-vertex.exe

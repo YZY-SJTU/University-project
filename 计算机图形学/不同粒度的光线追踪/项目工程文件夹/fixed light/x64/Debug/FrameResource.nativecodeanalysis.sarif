@@ -1,0 +1,418 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "“_pDescriptorRanges”可能是“0”: 这不符合函数“CD3DX12_ROOT_DESCRIPTOR_TABLE::Init”的规范。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/d3dx12.h"
+                },
+                "region": {
+                  "startLine": 720,
+                  "startColumn": 9,
+                  "endLine": 720,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CD3DX12_ROOT_DESCRIPTOR_TABLE@@QEAA@IPEBUD3D12_DESCRIPTOR_RANGE@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/d3dx12.h"
+                          },
+                          "region": {
+                            "startLine": 716,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "“_pDescriptorRanges”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/d3dx12.h"
+                          },
+                          "region": {
+                            "startLine": 716,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/d3dx12.h"
+                          },
+                          "region": {
+                            "startLine": 720,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "“_pDescriptorRanges”是对“CD3DX12_ROOT_DESCRIPTOR_TABLE::Init”的输入(在第 723 行中声明)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/d3dx12.h"
+                          },
+                          "region": {
+                            "startLine": 720,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "“_pDescriptorRanges”不应为 NULL，因为这与“CD3DX12_ROOT_DESCRIPTOR_TABLE::Init”上的 SAL 批注不一致"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/d3dx12.h"
+                },
+                "region": {
+                  "startLine": 1076,
+                  "startColumn": 16,
+                  "endLine": 1076,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?Offset@CD3DX12_CPU_DESCRIPTOR_HANDLE@@QEAAAEAU1@HI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/d3dx12.h"
+                },
+                "region": {
+                  "startLine": 1115,
+                  "startColumn": 33,
+                  "endLine": 1115,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?InitOffsetted@CD3DX12_CPU_DESCRIPTOR_HANDLE@@SAXAEAUD3D12_CPU_DESCRIPTOR_HANDLE@@AEBU2@HI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/d3dx12.h"
+                },
+                "region": {
+                  "startLine": 1137,
+                  "startColumn": 16,
+                  "endLine": 1137,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?Offset@CD3DX12_GPU_DESCRIPTOR_HANDLE@@QEAAAEAU1@HI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/d3dx12.h"
+                },
+                "region": {
+                  "startLine": 1176,
+                  "startColumn": 33,
+                  "endLine": 1176,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?InitOffsetted@CD3DX12_GPU_DESCRIPTOR_HANDLE@@SAXAEAUD3D12_GPU_DESCRIPTOR_HANDLE@@AEBU2@HI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/d3dx12.h"
+                },
+                "region": {
+                  "startLine": 1402,
+                  "startColumn": 100,
+                  "endLine": 1402,
+                  "endColumn": 143
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?UpdateSubresources@@YA_KPEAUID3D12GraphicsCommandList@@PEAUID3D12Resource@@1II_KPEBUD3D12_PLACED_SUBRESOURCE_FOOTPRINT@@PEBIPEB_KPEBUD3D12_SUBRESOURCE_DATA@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/UploadBuffer.h"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 1,
+                  "endLine": 24,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$UploadBuffer@UPassConstants@@@@QEAA@PEAUID3D12Device@@I_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/UploadBuffer.h"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 1,
+                  "endLine": 24,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$UploadBuffer@UMaterialConstants@@@@QEAA@PEAUID3D12Device@@I_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/UploadBuffer.h"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 1,
+                  "endLine": 24,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$UploadBuffer@UObjectConstants@@@@QEAA@PEAUID3D12Device@@I_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30138.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0047C1B0 -il C:\\Users\\HP\\AppData\\Local\\Temp\\_CL_b83fe0beast -typedil -f FrameResource.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930138 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_WINDOWS -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -Fox64\\Debug\\FrameResource.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\交大\\计算机图形学\\CG Project\\8th project\\VS Project\\test for RayTracing -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt -I D:\\交大\\计算机图形学\\CG Project\\8th project\\VS Project\\test for RayTracing\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt -external:I D:\\交大\\计算机图形学\\CG Project\\8th project\\VS Project\\test for RayTracing\\Include\\um -I D:\\交大\\计算机图形学\\CG Project\\8th project\\VS Project\\test for RayTracing\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/d3dx12.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "f36fb49af9ecc9c5c5aa1c4b0ac98fd0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/交大/计算机图形学/CG Project/8th project/Common/UploadBuffer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "1f2654b3ee730b3519c0b3b2caa10548"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/交大/计算机图形学/cg project/8th project/vs project/test for raytracing/frameresource.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "42b510f55a960924a55a7ccc231e6fc8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/交大/计算机图形学/cg project/8th project/vs project/test for raytracing/frameresource.h"
+          },
+          "hashes": {
+            "md5": "7729f25fcb095dc62c1bb826ece1b946"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/交大/计算机图形学/cg project/8th project/common/d3dutil.h"
+          },
+          "hashes": {
+            "md5": "8c65ca9dc575d5485dadfc561cd7c0ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/交大/计算机图形学/cg project/8th project/common/ddstextureloader.h"
+          },
+          "hashes": {
+            "md5": "ea4c4ab8d7221448ce6442eebb232a57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/交大/计算机图形学/cg project/8th project/common/mathhelper.h"
+          },
+          "hashes": {
+            "md5": "35f98886e347a4960b686826b4face7d"
+          }
+        }
+      ]
+    }
+  ]
+}

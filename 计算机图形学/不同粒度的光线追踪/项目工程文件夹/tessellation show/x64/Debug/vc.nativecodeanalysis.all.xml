@@ -1,0 +1,998 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>d3dx12.h</FILENAME>
+      <LINE>720</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“_pDescriptorRanges”可能是“0”: 这不符合函数“CD3DX12_ROOT_DESCRIPTOR_TABLE::Init”的规范。</DESCRIPTION>
+    <FUNCTION>CD3DX12_ROOT_DESCRIPTOR_TABLE::{ctor}</FUNCTION>
+    <DECORATED>??0CD3DX12_ROOT_DESCRIPTOR_TABLE@@QEAA@IPEBUD3D12_DESCRIPTOR_RANGE@@@Z</DECORATED>
+    <FUNCLINE>716</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dx12.h</FILENAME>
+        <LINE>716</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“_pDescriptorRanges”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dx12.h</FILENAME>
+        <LINE>716</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dx12.h</FILENAME>
+        <LINE>720</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“_pDescriptorRanges”是对“CD3DX12_ROOT_DESCRIPTOR_TABLE::Init”的输入(在第 723 行中声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dx12.h</FILENAME>
+        <LINE>720</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“_pDescriptorRanges”不应为 NULL，因为这与“CD3DX12_ROOT_DESCRIPTOR_TABLE::Init”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>d3dx12.h</FILENAME>
+      <LINE>1076</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>CD3DX12_CPU_DESCRIPTOR_HANDLE::Offset</FUNCTION>
+    <DECORATED>?Offset@CD3DX12_CPU_DESCRIPTOR_HANDLE@@QEAAAEAU1@HI@Z</DECORATED>
+    <FUNCLINE>1074</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>d3dx12.h</FILENAME>
+      <LINE>1115</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>CD3DX12_CPU_DESCRIPTOR_HANDLE::InitOffsetted</FUNCTION>
+    <DECORATED>?InitOffsetted@CD3DX12_CPU_DESCRIPTOR_HANDLE@@SAXAEAUD3D12_CPU_DESCRIPTOR_HANDLE@@AEBU2@HI@Z</DECORATED>
+    <FUNCLINE>1113</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>d3dx12.h</FILENAME>
+      <LINE>1137</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>CD3DX12_GPU_DESCRIPTOR_HANDLE::Offset</FUNCTION>
+    <DECORATED>?Offset@CD3DX12_GPU_DESCRIPTOR_HANDLE@@QEAAAEAU1@HI@Z</DECORATED>
+    <FUNCLINE>1135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>d3dx12.h</FILENAME>
+      <LINE>1176</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>CD3DX12_GPU_DESCRIPTOR_HANDLE::InitOffsetted</FUNCTION>
+    <DECORATED>?InitOffsetted@CD3DX12_GPU_DESCRIPTOR_HANDLE@@SAXAEAUD3D12_GPU_DESCRIPTOR_HANDLE@@AEBU2@HI@Z</DECORATED>
+    <FUNCLINE>1174</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>d3dx12.h</FILENAME>
+      <LINE>1402</LINE>
+      <COLUMN>130</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>UpdateSubresources</FUNCTION>
+    <DECORATED>?UpdateSubresources@@YA_KPEAUID3D12GraphicsCommandList@@PEAUID3D12Resource@@1II_KPEBUD3D12_PLACED_SUBRESOURCE_FOOTPRINT@@PEBIPEB_KPEBUD3D12_SUBRESOURCE_DATA@@@Z</DECORATED>
+    <FUNCLINE>1368</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>d3dApp.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 D3DApp::mScreenViewport。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>D3DApp::{ctor}</FUNCTION>
+    <DECORATED>??0D3DApp@@IEAA@PEAUHINSTANCE__@@@Z</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DApp::mScreenViewport</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>d3dApp.cpp</FILENAME>
+      <LINE>555</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“eventHandle”可能是“0”: 这不符合函数“WaitForSingleObject”的规范。</DESCRIPTION>
+    <FUNCTION>D3DApp::FlushCommandQueue</FUNCTION>
+    <DECORATED>?FlushCommandQueue@D3DApp@@IEAAXXZ</DECORATED>
+    <FUNCLINE>536</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>539</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>544</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>547</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>549</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“eventHandle”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>552</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“eventHandle”是“ID3D12Fence::SetEventOnCompletion”的输入/输出参数(在 c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\d3d12.h:4760 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>555</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“eventHandle”是对“WaitForSingleObject”的输入(在 c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\synchapi.h:346 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>555</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“eventHandle”不应为 NULL，因为这与“WaitForSingleObject”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>d3dApp.cpp</FILENAME>
+      <LINE>556</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“eventHandle”可能是“0”: 这不符合函数“CloseHandle”的规范。查看第 555 行以找出可能会发生此情况的前一位置</DESCRIPTION>
+    <FUNCTION>D3DApp::FlushCommandQueue</FUNCTION>
+    <DECORATED>?FlushCommandQueue@D3DApp@@IEAAXXZ</DECORATED>
+    <FUNCLINE>536</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>539</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>544</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>547</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>549</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“eventHandle”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>552</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“eventHandle”是“ID3D12Fence::SetEventOnCompletion”的输入/输出参数(在 c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\d3d12.h:4760 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>555</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“eventHandle”是对“WaitForSingleObject”的输入(在 c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\synchapi.h:346 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>556</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“eventHandle”是对“CloseHandle”的输入(在 c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\handleapi.h:39 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+        <FILENAME>d3dApp.cpp</FILENAME>
+        <LINE>556</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“eventHandle”不应为 NULL，因为这与“CloseHandle”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GameTimer.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 GameTimer::mStopTime。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>GameTimer::{ctor}</FUNCTION>
+    <DECORATED>??0GameTimer@@QEAA@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GameTimer::mStopTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.h</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 GeometryGenerator::Vertex::Position。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Vertex::{ctor}</FUNCTION>
+    <DECORATED>??0Vertex@GeometryGenerator@@QEAA@XZ</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GeometryGenerator::Vertex::Position</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>236</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Subdivide</FUNCTION>
+    <DECORATED>?Subdivide@GeometryGenerator@@AEAAXAEAUMeshData@1@@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>237</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Subdivide</FUNCTION>
+    <DECORATED>?Subdivide@GeometryGenerator@@AEAAXAEAUMeshData@1@@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>237</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Subdivide</FUNCTION>
+    <DECORATED>?Subdivide@GeometryGenerator@@AEAAXAEAUMeshData@1@@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>238</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Subdivide</FUNCTION>
+    <DECORATED>?Subdivide@GeometryGenerator@@AEAAXAEAUMeshData@1@@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>238</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Subdivide</FUNCTION>
+    <DECORATED>?Subdivide@GeometryGenerator@@AEAAXAEAUMeshData@1@@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>579</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>579</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>580</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>580</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>581</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>581</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>584</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>584</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>585</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>585</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>593</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>602</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>603</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>605</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>606</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>607</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::CreateGrid</FUNCTION>
+    <DECORATED>?CreateGrid@GeometryGenerator@@QEAA?AUMeshData@1@MMII@Z</DECORATED>
+    <FUNCLINE>551</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>152</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>“WinMain”的批注不一致: 此实例包含 无批注。请参见 c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winbase.h(1006)。</DESCRIPTION>
+    <FUNCTION>WinMain</FUNCTION>
+    <DECORATED>WinMain</DECORATED>
+    <FUNCLINE>152</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>175</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 BasicTessellationApp::mLastMousePos。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>BasicTessellationApp::{ctor}</FUNCTION>
+    <DECORATED>??0BasicTessellationApp@@QEAA@PEAUHINSTANCE__@@@Z</DECORATED>
+    <FUNCLINE>175</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>BasicTessellationApp::mLastMousePos</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>FrameResource.h</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 PassConstants::cbPerObjectPad2。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>PassConstants::{ctor}</FUNCTION>
+    <DECORATED>??0PassConstants@@QEAA@XZ</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>PassConstants::cbPerObjectPad2</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>244</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“eventHandle”可能是“0”: 这不符合函数“CloseHandle”的规范。查看第 243 行以找出可能会发生此情况的前一位置</DESCRIPTION>
+    <FUNCTION>BasicTessellationApp::Update</FUNCTION>
+    <DECORATED>?Update@BasicTessellationApp@@EEAAXAEBVGameTimer@@@Z</DECORATED>
+    <FUNCLINE>228</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>235</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“eventHandle”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“eventHandle”是“ID3D12Fence::SetEventOnCompletion”的输入/输出参数(在 c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\d3d12.h:4760 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“eventHandle”是对“WaitForSingleObject”的输入(在 c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\synchapi.h:346 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“eventHandle”是对“CloseHandle”的输入(在 c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\handleapi.h:39 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“eventHandle”不应为 NULL，因为这与“CloseHandle”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>243</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“eventHandle”可能是“0”: 这不符合函数“WaitForSingleObject”的规范。</DESCRIPTION>
+    <FUNCTION>BasicTessellationApp::Update</FUNCTION>
+    <DECORATED>?Update@BasicTessellationApp@@EEAAXAEBVGameTimer@@@Z</DECORATED>
+    <FUNCLINE>228</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>235</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“eventHandle”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“eventHandle”是“ID3D12Fence::SetEventOnCompletion”的输入/输出参数(在 c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\d3d12.h:4760 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“eventHandle”是对“WaitForSingleObject”的输入(在 c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\synchapi.h:346 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+        <FILENAME>Main.cpp</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“eventHandle”不应为 NULL，因为这与“WaitForSingleObject”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>600</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>BasicTessellationApp::BuildSkullGeometry</FUNCTION>
+    <DECORATED>?BuildSkullGeometry@BasicTessellationApp@@AEAAXXZ</DECORATED>
+    <FUNCLINE>571</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>603</LINE>
+      <COLUMN>67</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>BasicTessellationApp::BuildSkullGeometry</FUNCTION>
+    <DECORATED>?BuildSkullGeometry@BasicTessellationApp@@AEAAXXZ</DECORATED>
+    <FUNCLINE>571</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>603</LINE>
+      <COLUMN>63</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>BasicTessellationApp::BuildSkullGeometry</FUNCTION>
+    <DECORATED>?BuildSkullGeometry@BasicTessellationApp@@AEAAXXZ</DECORATED>
+    <FUNCLINE>571</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>603</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>BasicTessellationApp::BuildSkullGeometry</FUNCTION>
+    <DECORATED>?BuildSkullGeometry@BasicTessellationApp@@AEAAXXZ</DECORATED>
+    <FUNCLINE>571</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>603</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>BasicTessellationApp::BuildSkullGeometry</FUNCTION>
+    <DECORATED>?BuildSkullGeometry@BasicTessellationApp@@AEAAXXZ</DECORATED>
+    <FUNCLINE>571</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>603</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>BasicTessellationApp::BuildSkullGeometry</FUNCTION>
+    <DECORATED>?BuildSkullGeometry@BasicTessellationApp@@AEAAXXZ</DECORATED>
+    <FUNCLINE>571</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>884</LINE>
+      <COLUMN>98</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>BasicTessellationApp::DrawRenderItems</FUNCTION>
+    <DECORATED>?DrawRenderItems@BasicTessellationApp@@AEAAXPEAUID3D12GraphicsCommandList@@AEBV?$vector@PEAURenderItem@@V?$allocator@PEAURenderItem@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>866</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\VS Project\test for RayTracing\</FILEPATH>
+      <FILENAME>Main.cpp</FILENAME>
+      <LINE>885</LINE>
+      <COLUMN>94</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>BasicTessellationApp::DrawRenderItems</FUNCTION>
+    <DECORATED>?DrawRenderItems@BasicTessellationApp@@AEAAXPEAUID3D12GraphicsCommandList@@AEBV?$vector@PEAURenderItem@@V?$allocator@PEAURenderItem@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>866</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\交大\计算机图形学\CG Project\8th project\Common\</FILEPATH>
+      <FILENAME>UploadBuffer.h</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>UploadBuffer&lt;PassConstants&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$UploadBuffer@UPassConstants@@@@QEAA@PEAUID3D12Device@@I_N@Z</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
